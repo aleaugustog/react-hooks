@@ -1,2 +1,2 @@
-# react-hooks
+# @thytanium/react-hooks
 Useful React hooks
