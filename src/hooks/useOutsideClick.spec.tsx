@@ -1,6 +1,6 @@
 import { act, renderHook } from "@testing-library/react-hooks";
 import { forwardRef } from "react";
-import { render } from "react-dom";
+import { fireClick, render } from "../utils";
 import useOutsideClick from "./useOutsideClick";
 
 const cb = jest.fn();
@@ -18,28 +18,11 @@ const MyComponent = forwardRef<HTMLDivElement>((props, ref) => (
   </div>
 ));
 
-const createContainer = () => {
-  const container = document.createElement("div");
-  document.body.appendChild(container);
-  return container;
-};
-
-const fireClick = (element: Element | null) => {
-  element?.dispatchEvent(
-    new MouseEvent("click", {
-      view: window,
-      bubbles: true,
-      cancelable: false,
-    })
-  );
-};
-
 describe("useOutsideClick", () => {
   it("executes callback on outside click", () => {
-    const container = createContainer();
     const { result } = renderHook(() => useOutsideClick<HTMLDivElement>(cb));
 
-    render(<MyComponent ref={result.current} />, container);
+    const { container } = render(<MyComponent ref={result.current} />);
 
     act(() => {
       fireClick(container.querySelector("#outside"));
@@ -49,10 +32,9 @@ describe("useOutsideClick", () => {
   });
 
   it("does not execute callback on inside click", () => {
-    const container = createContainer();
     const { result } = renderHook(() => useOutsideClick<HTMLDivElement>(cb));
 
-    render(<MyComponent ref={result.current} />, container);
+    const { container } = render(<MyComponent ref={result.current} />);
 
     act(() => {
       fireClick(container.querySelector("#inside"));
