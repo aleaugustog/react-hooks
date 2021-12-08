@@ -30,7 +30,7 @@
     <img src="images/logo.png" alt="Logo" width="64" height="64">
   </a>
 
-<h3 align="center">@thytanium/react-hooks</h3>
+<h2 align="center">@thytanium/react-hooks</h2>
 
   <p align="center">
     Useful React hooks
