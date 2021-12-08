@@ -30,10 +30,12 @@
     <img src="images/logo.png" alt="Logo" width="64" height="64">
   </a>
 
-<h1 align="center">@thytanium/react-hooks</h1>
+<h3 align="center">@thytanium/react-hooks</h3>
 
   <p align="center">
-    Useful React hooks
+    Useful hooks that can be imported on any React project to spped up every day tasks
+    <br />
+    <a href="#usage"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/thytanium/react-hooks/issues">Report Bug</a>
@@ -76,13 +78,6 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
-
-- [TypeScript](https://typescriptlang.org/)
-- [React.js](https://reactjs.org/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -121,6 +116,14 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [] Nested Feature
 
 See the [open issues](https://github.com/thytanium/react-hooks/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CHANGELOG -->
+
+## Changelog
+
+Please see [CHANGELOG.md](CHANGELOG.md) for more information on what has changed recently.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
