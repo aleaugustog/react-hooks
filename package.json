@@ -16,11 +16,16 @@
   "keywords": [
     "react",
     "hooks",
-    "useprevious",
     "uselocalstorage",
-    "usemounted"
+    "usemounted",
+    "useoutsideclick",
+    "useprevious"
   ],
-  "author": "Alejandro González",
+  "author": {
+    "name": "Alejandro González",
+    "email": "thytanium@gmail.com",
+    "url": "https://aleaugustog.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/thytanium/react-hooks/issues"
