@@ -33,7 +33,7 @@
 <h3 align="center">@thytanium/react-hooks</h3>
 
   <p align="center">
-    Useful hooks that can be imported on any React project to spped up every day tasks
+    Useful hooks that can be imported on any React project to speed up every day tasks
     <br />
     <a href="#usage"><strong>Explore the docs »</strong></a>
     <br />
