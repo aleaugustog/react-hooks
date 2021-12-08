@@ -163,7 +163,7 @@ Project Link: [https://github.com/thytanium/react-hooks](https://github.com/thyt
 
 ## Acknowledgments
 
-- []()
+- Icons made by [DinosoftLabs]() from [www.flaticon.com](https://www.flaticon.com)
 - []()
 - []()
 
