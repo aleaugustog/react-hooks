@@ -30,7 +30,7 @@
     <img src="images/logo.png" alt="Logo" width="64" height="64">
   </a>
 
-<h2 align="center">@thytanium/react-hooks</h2>
+<h1 align="center">@thytanium/react-hooks</h1>
 
   <p align="center">
     Useful React hooks
@@ -89,7 +89,7 @@
 
 ### Prerequisites
 
-This package requires **React >= 16.8**.
+This package requires **React >= 16.8** in your project.
 
 ### Installation
 
